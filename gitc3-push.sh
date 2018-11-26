@@ -16,9 +16,12 @@
 #6 dang ky dia chi git de lien lac
 #git remote add origin git@10.151.54.84:/mnt/gitserver/ionic-mf3-gate-web.git
 
+####### Trường hợp đã có đăng ký một địa chỉ git khác cần thay đổi??
+# Gõ lệnh > git remote set-url origin <địa chỉ mới>
+git remote set-url origin git@10.151.54.84:/mnt/gitserver/ionic-mf3-gate-web.git
+
 #7. Kiem tra lai dia chi da dang ky thanh cong hay khong
 #git remote -v
-
 
 
 #8. Lenh <git add .> nay bo sung cac file vao kho git de chuan bi commit
@@ -26,4 +29,14 @@
 git add .
 #9. lenh <git commit ...> thuc hien commit
 git commit -m "cuongdq push to c3 by sh"
+
+#10. day source len server
+git push origin master
+
+#11. Gõ mật khẩu của user git khi yêu cầu hỏi?? Admin@12345
+
+
+################################################################
+# Để copy về máy khi chưa đăng ký dịch vụ, chỉ cần lệnh git clone địa chỉ
+# Để đồng bộ về máy khi đã đăng ký remote chỉ cần gõ lệnh git pull
 

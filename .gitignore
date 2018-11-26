@@ -31,6 +31,8 @@ temp/
 upload_files/
 #khong truyen file screen_shot_images len
 screen_shot_images/
+#Khong truyen len key bao mat 
+cert/
 platforms/
 plugins/
 plugins/android.json
